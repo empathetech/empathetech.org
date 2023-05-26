@@ -1,0 +1,46 @@
+:root {
+	/* colors */
+	--color-dark-blue: #264653;
+	--color-aqua: #2a9d8f;
+	--color-yellow: #ffac32;
+	--color-pale-yellow: #f9d388;
+	--color-sunset: #e76f51;
+	--color-pale-pink: #ff8f8f;
+	--color-barbie: #ff3186;
+	--color-white: #fff;
+	--color-gray-1: #eee;
+	--color-gray-2: #ddd;
+	--color-gray-3: #ccc;
+	--color-gray-4: #bbb;
+	--color-gray-5: #9a9a9a;
+	--color-black: #000;
+	/* sizes */
+	--size-base: 3px;
+	--size-xxs: var(--size-base); /* 3px */
+	--size-xs: calc(var(--size-base) * 3); /* 9px */
+	--size-s: calc(var(--size-base) * 6); /* 18px */
+	--size-m: calc(var(--size-base) * 10); /* 30px */
+	--size-l: calc(var(--size-base) * 15); /* 45px */
+	--size-xl: calc(var(--size-base) * 20); /* 60px */
+	/* font-weight */
+	--font-weight-thin: 100;
+	--font-weight-extra-light: 200;
+	--font-weight-light: 300;
+	--font-weight-normal: 400;
+	--font-weight-medium: 500;
+	--font-weight-semi-bold: 600;
+	--font-weight-bold: 700;
+	--font-weight-extra-bold: 800;
+	/* border-radius */
+	--border-radius-semi-rounded: var(--size-xs);
+	--border-radius-rounded: 25px;
+	--border-radius-circle: 100%;
+	/* media query */
+	--media-query-xs: 350px;
+	--media-query-s: 700px;
+	--media-query-m: 1020px;
+	--media-query-l: 1200px;
+	--media-query-xl: 1500px;
+	/* transitions */
+	--transition-duration: 0.2s;
+}

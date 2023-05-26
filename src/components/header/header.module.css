@@ -1,0 +1,15 @@
+.wrapper {
+	padding-bottom: 24px;
+}
+
+.title {
+	text-align: center;
+	font-size: 50px;
+	font-weight: var(--font-weight-bold);
+}
+
+.subTitle {
+	text-align: center;
+	font-size: 20px;
+	padding-top: var(--size-xs);
+}
