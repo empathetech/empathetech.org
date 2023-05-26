@@ -1,13 +1,17 @@
 import "@/styles/globals.css"
 import type { AppProps } from "next/app"
 //replace with google font of choice
-import { Arimo } from "next/font/google"
+import { Poppins } from "next/font/google"
 
-const arimo = Arimo({ subsets: ["latin"] })
+const poppins = Poppins({
+	weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+	subsets: ["latin"],
+	style: ["normal", "italic"],
+})
 
 export default function App({ Component, pageProps }: AppProps) {
 	return (
-		<div className={arimo.className}>
+		<div className={poppins.className}>
 			<Component {...pageProps} />
 		</div>
 	)
