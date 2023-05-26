@@ -23,10 +23,10 @@ export default function CodeOfConduct() {
 
         <ul>
           <li>
-            <Link className={styles.button} href="/">Home</Link>
+            <Link href="/">Home</Link>
           </li>
         </ul>
-        
+
       </main>
     </>
   )
