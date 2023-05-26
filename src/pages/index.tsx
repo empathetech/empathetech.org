@@ -1,6 +1,6 @@
 import Head from "next/head"
 import styles from "@/styles/page.module.css"
-import { GitHubLink, Header } from "@/components"
+import { Header } from "@/components"
 
 export default function Home() {
 	return (
@@ -12,15 +12,7 @@ export default function Home() {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			<main className={styles.main}>
-				<Header
-					title={"🍽️ MJB Boilerplate"}
-					subTitle={
-						"React app quick start with Next.js, TypeScript, CSS Modules, and React Testing Library"
-					}
-				/>
-				<footer className={styles.footer}>
-					<GitHubLink link={"https://github.com/MollyJeanB/mjb-boilerplate"} />
-				</footer>
+				<Header subTitle={"A hug-o-tron community."} />
 			</main>
 		</>
 	)
