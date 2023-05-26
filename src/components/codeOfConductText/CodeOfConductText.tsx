@@ -1,6 +1,6 @@
 import React from "react"
 
-export const CodeOfConduct: React.FC = () => {
+export const CodeOfConductText: React.FC = () => {
   return (
     <>
       <div>
