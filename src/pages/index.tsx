@@ -1,6 +1,6 @@
 import Head from "next/head"
 import styles from "@/styles/page.module.css"
-import { Header, LinkButton, SplashText, TextBlock } from "@/components"
+import { CodeOfConduct, Header, LinkButton, SplashText, TextBlock } from "@/components"
 import { SlackIcon } from "@/assets/svg"
 
 export default function Home() {
@@ -28,6 +28,9 @@ export default function Home() {
 
 				<TextBlock>
 					<SplashText />
+				</TextBlock>
+				<TextBlock>
+					<CodeOfConduct />
 				</TextBlock>
 			</main>
 		</>
