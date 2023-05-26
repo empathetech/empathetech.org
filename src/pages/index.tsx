@@ -29,10 +29,8 @@ export default function Home() {
 				<TextBlock>
 					<SplashText />
 				</TextBlock>
-				
-				<TextBlock>
-					<CodeOfConduct />
-				</TextBlock>
+
+
 			</main>
 		</>
 	)
