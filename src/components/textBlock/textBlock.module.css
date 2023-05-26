@@ -1,0 +1,7 @@
+.wrapper {
+	margin: 0 auto;
+	max-width: 800px;
+	background-color: var(--color-gray-3);
+	padding: var(--size-l);
+	border-radius: var(--border-radius-semi-rounded);
+}
