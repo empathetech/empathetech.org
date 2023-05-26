@@ -15,17 +15,17 @@ export default function CodeOfConduct() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+        <ul className={styles.nav}>
+          <li>
+            <Link href="/">Home</Link>
+          </li>
+        </ul>
+
       <main className={styles.main}>
 
         <TextBlock>
           <CodeOfConductText />
         </TextBlock>
-
-        <ul>
-          <li>
-            <Link href="/">Home</Link>
-          </li>
-        </ul>
 
       </main>
     </>
