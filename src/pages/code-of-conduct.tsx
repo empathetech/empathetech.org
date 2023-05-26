@@ -7,7 +7,7 @@ import Link from 'next/link';
 export default function CodeOfConduct() {
   return (
     <>
-      <Link href="/">Home</Link>
+
       <Head>
         <title>Empathetech Code of Conduct</title>
         <meta name="description" content="code of conduct for empathetech" />
@@ -16,9 +16,17 @@ export default function CodeOfConduct() {
       </Head>
 
       <main className={styles.main}>
+
         <TextBlock>
           <CodeOfConductText />
         </TextBlock>
+
+        <ul>
+          <li>
+            <Link className={styles.button} href="/">Home</Link>
+          </li>
+        </ul>
+        
       </main>
     </>
   )
