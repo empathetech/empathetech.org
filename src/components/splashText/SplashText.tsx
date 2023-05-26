@@ -10,7 +10,7 @@ export const SplashText: React.FC = () => {
 					}
 				</b>
 				{
-					"Empathetech (pronounced “empathetic”) is empathy-driven community for software engineers in every stage of their career. We center our community through the lens of non-traditional and diverse people in tech, and we welcome all folks who believe that good software engineers are good humans."
+					"Empathetech (pronounced “empathetic”) is an empathy-driven community for software engineers in every stage of their career. We center our community through the lens of non-traditional and diverse people in tech, and we welcome all folks who believe that good software engineers are good humans."
 				}
 			</p>
 			<p>
@@ -27,31 +27,31 @@ export const SplashText: React.FC = () => {
 			</p>
 			<ul>
 				<li>
-					<b>{"Tech Interview Office Hours: "}</b>
+					<b>{"📚 Tech Interview Office Hours: "}</b>
 					{
-						" We schedule biweekly office hours to help engineers workshop their technical interview skills across six primary technical interview domains."
+						"We schedule biweekly office hours to help engineers workshop their technical interview skills across six primary technical interview domains."
 					}
 				</li>
 				<li>
-					<b>{"Domain Demos: "}</b>
+					<b>{"💻 Domain Demos: "}</b>
 					{
 						" We offer ad-hoc sessions to explore technologies or frameworks used by engineering teams throughout the industry."
 					}
 				</li>
 				<li>
-					<b>{"Career Development: "}</b>
+					<b>{"💼 Career Development: "}</b>
 					{
 						" We provide tactical support with respect to networking, curating job postings, and navigating the interview pipeline."
 					}
 				</li>
 				<li>
-					<b>{"Human Hackathons: "}</b>
+					<b>{"👩‍💻 Human Hackathons: "}</b>
 					{
 						" We organize casual, human hackathons for folks who want to meet new people and flex their creative muscles to build silly and engaging software."
 					}
 				</li>
 				<li>
-					<b>{"Community Collaboration: "}</b>
+					<b>{"🤗 Community Collaboration: "}</b>
 					{
 						" We do outreach with other local organizations in the PDX area to find opportunities for engineers to use their tech skills for their community."
 					}

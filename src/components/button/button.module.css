@@ -1,0 +1,23 @@
+.button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font: unset;
+	border: 2px solid var(--color-dark-blue);
+	padding: 5px 8px;
+	color: var(--color-white);
+	background: var(--color-deep-purple);
+	font-size: 20px;
+	text-shadow: 1px 1px 1px var(--color-yellow);
+	cursor: pointer;
+	border-radius: var(--border-radius-semi-rounded);
+	transition: background-color var(--transition-duration);
+}
+
+.button:hover {
+	background-color: var(--color-dark-blue);
+}
+
+.button:focus {
+	outline: var(--color-bright-purple) auto 1px;
+}

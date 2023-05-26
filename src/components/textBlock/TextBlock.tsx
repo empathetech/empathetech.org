@@ -6,5 +6,5 @@ type PropsType = {
 }
 
 export const TextBlock: React.FC<PropsType> = ({ children }) => {
-	return <p className={styles.wrapper}>{children}</p>
+	return <div className={styles.wrapper}>{children}</div>
 }
