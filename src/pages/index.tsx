@@ -1,6 +1,6 @@
 import Head from "next/head"
 import styles from "@/styles/page.module.css"
-import { Header } from "@/components"
+import { Header, SplashText, TextBlock } from "@/components"
 
 export default function Home() {
 	return (
@@ -13,6 +13,9 @@ export default function Home() {
 			</Head>
 			<main className={styles.main}>
 				<Header subTitle={"A hug-o-tron community."} />
+				<TextBlock>
+					<SplashText />
+				</TextBlock>
 			</main>
 		</>
 	)

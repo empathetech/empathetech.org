@@ -16,9 +16,22 @@ body {
 	color: var(--color-black);
 	background: linear-gradient(var(--color-bright-purple), var(--color-mauve));
 	padding: var(--size-l);
+	height: 100%;
 }
 
 a {
 	color: inherit;
 	text-decoration: none;
+}
+
+p {
+	padding-bottom: var(--size-s);
+}
+
+ul {
+	margin-left: var(--size-m);
+}
+
+li {
+	padding-bottom: var(--size-xs);
 }
