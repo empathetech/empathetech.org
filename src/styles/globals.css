@@ -14,7 +14,7 @@ body {
 
 body {
 	color: var(--color-black);
-	background: linear-gradient(var(--color-pale-pink), var(--color-pale-yellow));
+	background: linear-gradient(var(--color-bright-purple), var(--color-mauve));
 	padding: var(--size-l);
 }
 
