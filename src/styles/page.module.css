@@ -5,3 +5,13 @@
 	justify-content: center;
 	min-height: calc(100vh - 90px);
 }
+
+.buttonWrapper {
+	padding-bottom: var(--size-m);
+}
+
+.iconWrapper {
+	display: flex;
+	align-items: center;
+	padding-left: var(--size-xs);
+}

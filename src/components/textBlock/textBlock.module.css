@@ -4,4 +4,17 @@
 	background-color: var(--color-gray-3);
 	padding: var(--size-l);
 	border-radius: var(--border-radius-semi-rounded);
+	font-size: var(--size-s);
+}
+
+.wrapper p {
+	padding-bottom: var(--size-s);
+}
+
+.wrapper ul {
+	margin-left: var(--size-m);
+}
+
+.wrapper li {
+	padding-bottom: var(--size-xs);
 }
