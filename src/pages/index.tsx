@@ -8,7 +8,7 @@ export default function Home() {
 	return (
 		<>
 
-			<ul className={styles.nav}>
+			<ul className={styles.navigation}>
 				<li>
 					<Link href="/code-of-conduct">{"Code of Conduct"}</Link>
 				</li>

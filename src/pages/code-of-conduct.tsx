@@ -10,12 +10,12 @@ export default function CodeOfConduct() {
 
       <Head>
         <title>Empathetech Code of Conduct</title>
-        <meta name="description" content="code of conduct for empathetech" />
+        <meta name="description" content="Code of conduct for empathetech" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-        <ul className={styles.nav}>
+        <ul className={styles.navigation}>
           <li>
             <Link href="/">Home</Link>
           </li>

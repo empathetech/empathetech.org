@@ -16,7 +16,7 @@
 	padding-left: var(--size-xs);
 }
 
-.nav {
+.navigation {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
