@@ -8,7 +8,7 @@ export const CodeOfConductText: React.FC = () => {
         <ul>
           <li>
             <b>
-              {"🤝 Respect: "}
+              {"🫱🏿‍🫲🏻 Respect: "}
             </b>
             {"We respect each other as peers, colleagues, and collaborators."}
           </li>
