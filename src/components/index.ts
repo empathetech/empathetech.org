@@ -1,4 +1,5 @@
 export { Button } from "./button/Button"
+export { CodeOfConductText } from "./codeOfConductText/CodeOfConductText"
 export { GitHubLink } from "./gitHubLink/GitHubLink"
 export { Header } from "./header/Header"
 export { LinkButton } from "./linkButton/LinkButton"
