@@ -3,10 +3,12 @@ import Link from "next/link"
 import styles from "@/styles/page.module.css"
 import {
 	AboutEmpathetechText,
+	Footer,
 	Header,
 	LinkButton,
 	TextBlock,
 } from "@/components"
+
 import { SlackIcon } from "@/assets/svg"
 
 export const TAGLINE = "A hug-o-tron community. Beep beep boop boop."
@@ -44,6 +46,8 @@ export default function Home() {
 					<AboutEmpathetechText />
 				</TextBlock>
 			</main>
+
+			<Footer />
 		</>
 	)
 }

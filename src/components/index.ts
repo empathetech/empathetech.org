@@ -2,6 +2,7 @@ export { AboutEmpathetechText } from "./aboutEmpathetechText/AboutEmpathetechTex
 export { Button } from "./button/Button"
 export { Calendar } from "./calendar/Calendar"
 export { CodeOfConductText } from "./codeOfConductText/CodeOfConductText"
+export { Footer } from "./footer/Footer"
 export { Header } from "./header/Header"
 export { LinkButton } from "./linkButton/LinkButton"
 export { TextBlock } from "./textBlock/TextBlock"
