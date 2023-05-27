@@ -1,6 +1,6 @@
 import React from "react"
 
-export const SplashText: React.FC = () => {
+export const AboutEmpathetechText: React.FC = () => {
 	return (
 		<>
 			<p>
