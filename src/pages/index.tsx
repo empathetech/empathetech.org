@@ -6,6 +6,7 @@ import {
 	Footer,
 	Header,
 	LinkButton,
+	NavigationBar,
 	TextBlock,
 } from "@/components"
 
@@ -16,11 +17,7 @@ export const TAGLINE = "A hug-o-tron community. Beep beep boop boop."
 export default function Home() {
 	return (
 		<>
-			<ul className={styles.navigation}>
-				<li>
-					<Link href="/code-of-conduct">{"Code of Conduct"}</Link>
-				</li>
-			</ul>
+			<NavigationBar />
 
 			<Head>
 				<title>{"Empathetech"}</title>
