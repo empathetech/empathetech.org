@@ -1,22 +1,25 @@
 import Link from "next/link";
+import styles from "./navigationBar.module.css"
+import { LinkButton } from "../linkButton/LinkButton";
+
 
 export const NavigationBar: React.FC  = () => {
 
   return (
-    <nav className="">
+    <nav className={styles.navigationBar}>
 
       <Link href="/">
-        <li>Home</li>
+        <LinkButton>Home</LinkButton>
       </Link>
 
       <Link href="/code-of-conduct">
-        <li>Code of Conduct</li>
+        <LinkButton>Code of Conduct</LinkButton>
       </Link>
 
       <Link href={"/events"}>
-        <li>Events</li>
+        <LinkButton>Events</LinkButton>
       </Link>
-      
+
     </nav>
   );
 };

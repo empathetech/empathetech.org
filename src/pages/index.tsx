@@ -1,12 +1,9 @@
 import Head from "next/head"
-import Link from "next/link"
 import styles from "@/styles/page.module.css"
 import {
 	AboutEmpathetechText,
-	Footer,
 	Header,
 	LinkButton,
-	NavigationBar,
 	TextBlock,
 } from "@/components"
 
@@ -17,8 +14,6 @@ export const TAGLINE = "A hug-o-tron community. Beep beep boop boop."
 export default function Home() {
 	return (
 		<>
-			<NavigationBar />
-
 			<Head>
 				<title>{"Empathetech"}</title>
 				<meta name="description" content={TAGLINE} />
@@ -44,7 +39,6 @@ export default function Home() {
 				</TextBlock>
 			</main>
 
-			<Footer />
 		</>
 	)
 }
