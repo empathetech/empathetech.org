@@ -22,6 +22,10 @@
 	border-bottom: 4px solid var(--color-deep-purple);
 }
 
+.activeLink {
+	border-bottom: 4px solid var(--color-yellow);
+}
+
 .link:hover {
 	border-bottom: 4px solid var(--color-white);
 }

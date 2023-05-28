@@ -1,5 +1,6 @@
-import Link from "next/link"
+import NavLink from "next/link"
 import styles from "./navigationBar.module.css"
+import { NextRouter, useRouter } from "next/router"
 
 type PageType = {
 	path: string
@@ -28,16 +29,23 @@ const pages: PageType[] = [
 ]
 
 export const NavigationBar: React.FC = () => {
+	const router: NextRouter = useRouter()
 	return (
 		<nav className={styles.navigationBar}>
 			<ul className={styles.navigationList}>
-				{pages.map((page: PageType) => (
-					<li key={page.name}>
-						<Link className={styles.link} href={page.path}>
-							{page.name}
-						</Link>
-					</li>
-				))}
+				{pages.map((page: PageType) => {
+					const isActive: boolean = router.pathname === page.path
+					const linkClassName: string = isActive
+						? `${styles.activeLink} ${styles.link}`
+						: styles.link
+					return (
+						<li key={page.name}>
+							<NavLink className={linkClassName} href={page.path}>
+								{page.name}
+							</NavLink>
+						</li>
+					)
+				})}
 			</ul>
 		</nav>
 	)

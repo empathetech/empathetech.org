@@ -8,7 +8,6 @@
 	color: var(--color-white);
 	background: var(--color-deep-purple);
 	font-size: 20px;
-	text-shadow: 1px 1px 1px var(--color-yellow);
 	cursor: pointer;
 	border-radius: var(--border-radius-semi-rounded);
 	transition: background-color var(--transition-duration);
