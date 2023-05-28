@@ -27,3 +27,7 @@ a {
 	color: inherit;
 	text-decoration: none;
 }
+
+h1 {
+	padding-bottom: var(--size-s);
+}

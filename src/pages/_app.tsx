@@ -1,7 +1,7 @@
 import "@/styles/globals.css"
 import type { AppProps } from "next/app"
 import { Poppins } from "next/font/google"
-import { Footer, NavigationBar } from "@/components"
+import { Layout } from "@/components"
 
 const poppins = Poppins({
 	weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
@@ -12,9 +12,9 @@ const poppins = Poppins({
 export default function App({ Component, pageProps }: AppProps) {
 	return (
 		<div className={poppins.className}>
-			<NavigationBar />
-			<Component {...pageProps} />
-			<Footer />
+			<Layout>
+				<Component {...pageProps} />
+			</Layout>
 		</div>
 	)
 }
