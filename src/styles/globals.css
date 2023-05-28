@@ -19,7 +19,7 @@ body {
 		var(--color-mauve),
 		var(--color-sunset)
 	);
-	padding: var(--size-l);
+	padding: 90px var(--size-m) var(--size-m);
 	height: 100%;
 }
 

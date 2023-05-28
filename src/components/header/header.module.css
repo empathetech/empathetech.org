@@ -9,6 +9,12 @@
 	font-weight: var(--font-weight-bold);
 }
 
+@media screen and (max-width: 550px) {
+	.title {
+		font-size: 35px;
+	}
+}
+
 .subTitle {
 	text-align: center;
 	font-size: 20px;

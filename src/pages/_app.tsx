@@ -1,6 +1,5 @@
 import "@/styles/globals.css"
 import type { AppProps } from "next/app"
-//replace with google font of choice
 import { Poppins } from "next/font/google"
 import { Footer, NavigationBar } from "@/components"
 
