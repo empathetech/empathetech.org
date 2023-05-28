@@ -6,8 +6,8 @@ export default function CodeOfConduct() {
 	return (
 		<>
 			<Head>
-				<title>Empathetech Code of Conduct</title>
-				<meta name="description" content="Code of Conduct for Empathetech" />
+				<title>Code of Conduct</title>
+				<meta name="description" content="Empathetech's core values" />
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
