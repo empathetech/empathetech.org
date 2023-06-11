@@ -1,5 +1,6 @@
 import React from "react"
 import styles from "./homePageHeader.module.css"
+import { EmpathetechIcon } from "@/assets/svg"
 
 type PropsType = {
 	subTitle?: string
@@ -8,7 +9,7 @@ type PropsType = {
 export const HomePageHeader: React.FC<PropsType> = ({ subTitle }) => {
 	return (
 		<div className={styles.wrapper}>
-			<h1 className={styles.title}>{"Empathetech"}</h1>
+			<EmpathetechIcon />
 			{subTitle && <p className={styles.subTitle}>{subTitle}</p>}
 		</div>
 	)
