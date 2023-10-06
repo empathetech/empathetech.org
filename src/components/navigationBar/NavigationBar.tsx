@@ -26,6 +26,10 @@ const pages: PageType[] = [
 		path: CODE_OF_CONDUCT_PAGE_PATH,
 		name: CODE_OF_CONDUCT_PAGE_NAME,
 	},
+	{
+		path: "/contact",
+		name: "Contact",
+	},
 ]
 
 export const NavigationBar: React.FC = () => {

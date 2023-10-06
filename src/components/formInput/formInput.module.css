@@ -1,0 +1,20 @@
+.inputWrapper {
+	padding-bottom: var(--size-s);
+}
+
+.label {
+	display: block;
+}
+
+.input {
+	min-width: 280px;
+	height: var(--size-m);
+	border-radius: var(--border-radius-semi-rounded);
+	border: 2px solid var(--color-yellow);
+	padding: var(--size-xs);
+	font: unset;
+}
+
+.input:focus {
+	outline-color: var(--color-pale-pink);
+}
